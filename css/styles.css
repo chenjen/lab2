@@ -13,11 +13,16 @@ body {
     padding: 10px;
 }
 
+p {
+	margin-top: 15px;
+}
+
 .context-box {
 	width: 80%;
 	margin: 0 auto;
 	background-color: #FFF;
-	box-shadow: 2px 2px 6px #555;
+	box-shadow: 2px` 2px 6px #555;
+	padding: 10px
 }
 .name {
 	font-family: 'Boogaloo', sans-serif;
@@ -38,6 +43,8 @@ nav ul {
 	background-color: #D74710;
 	border-radius: 5px;
 	margin: 0 auto;
+	margin-top: 20px;
+
 
 }
 
@@ -65,14 +72,46 @@ nav a:hover {
 
 .factory {
 	float: left;
+	margin-right: 20px;
 }
 
-.freeshiping {
+.freeshipping {
 	float: right;
+	margin-left: 20px;
 }
 
 .footer {
-	border-style:solid;
-	border-top:thick double #ff0000;
+	margin-top: 40px;
+	border-top: thin solid #CCC;
+	font-style: italic;
+	font-size: 80%;
+}
+
+.footer a:link {
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 170%;
+	color: #116189;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #116189;
+}
+
+.person {
+	float: left;
+	margin-right: 10px;
 
 }
